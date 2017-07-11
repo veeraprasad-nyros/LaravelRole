@@ -1,0 +1,78 @@
+body {
+  font-family: "Lato";
+  background-color: rgba(0,0,0,0.5);
+}
+.fa-btn {
+  margin-right: 6px;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 100%;
+  margin: auto;
+}
+
+@media only screen and (min-width: 480px) {
+  .carousel-inner  .item {
+    height: 250px !important;
+  }
+  .customthumb {
+    width:120px !important;height:125px !important; padding:5px !important;
+  }
+  .customthumb img {
+    width:115px !important;height:120px !important; padding:5px !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .carousel-inner  .item {
+    height: 300px !important;
+  }
+  .customthumb {
+    width:185px !important;height:155px !important; padding:5px !important;
+  }
+  .customthumb img {
+    width:165px !important;height:150px !important; padding:5px !important;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .carousel-inner  .item {
+    height: 360px !important;
+  }
+  .customthumb {
+  width:200px !important;height:180px !important; padding:5px !important;
+}
+}
+
+@media only screen and (min-width: 1280px) {
+  .carousel-inner  .item {
+    height: 450px !important;
+  }
+  .customthumb {
+  width:200px !important;height:180px !important; padding:5px !important;
+}
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #e7e7e7;
+  padding-top: 20px;
+}
+
+/*thumbnail css*/
+
